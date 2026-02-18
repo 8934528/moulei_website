@@ -47,25 +47,15 @@ This website uses a **tab-based layout (not a navigation bar)** and is designed 
 
 ---
 
-## Theme Colors
+## Markdown
 
-The website follows a professional theme using:
-
-- **Dark Green** (main background)
-- **White** (text and UI)
-- **Orange** (highlight and active states)
-
----
-
-## Tabs Included
-
-The system contains 5 main tabs:
-
-1. **Home** – Welcome page and images
-2. **About** – Summary and timeline
-3. **Skills** – HR skill bars and soft skills
-4. **Work** – Experience cards
-5. **Contact** – Contact form and social icons
+| Theme Colors       | Description                          | Tabs Included | Description                          |
+|--------------------|--------------------------------------|---------------|--------------------------------------|
+| Dark Green         | Main background                      | Home          | Welcome page and images              |
+| White              | Text and UI                          | About         | Summary and timeline                 |
+| Orange             | Highlight and active states          | Skills        | HR skill bars and soft skills        |
+|                    |                                      | Work          | Experience cards                     |
+|                    |                                      | Contact       | Contact form and social icons        |
 
 ---
 
