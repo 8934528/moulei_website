@@ -41,7 +41,8 @@ This website uses a **tab-based layout (not a navigation bar)** and is designed 
         │
         ├── index.html
         ├── styles.css
-        ├── script.js
+        ├── script.
+        ├── MIT LICENSE
         └── README.md
 
 ---
