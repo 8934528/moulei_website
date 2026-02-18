@@ -1,6 +1,4 @@
-// ===============================
 // TAB SWITCHING
-// ===============================
 const tabButtons = document.querySelectorAll(".tab-btn");
 const tabContents = document.querySelectorAll(".tab-content");
 
@@ -23,9 +21,7 @@ tabButtons.forEach(btn => {
     });
 });
 
-// ===============================
 // CLOCK
-// ===============================
 function updateClock() {
     const now = new Date();
     const timeString = now.toLocaleTimeString();
@@ -34,14 +30,9 @@ function updateClock() {
 setInterval(updateClock, 1000);
 updateClock();
 
-// ===============================
 // YEAR
-// ===============================
 document.getElementById("yearText").textContent = new Date().getFullYear();
 
-// ===============================
-// BUTTON ANIMATION
-// ===============================
 const btnGlow = document.getElementById("btnGlow");
 
 if (btnGlow) {
@@ -59,9 +50,7 @@ if (btnGlow) {
     });
 }
 
-// ===============================
-// CONTACT FORM DEMO
-// ===============================
+// CONTACT FORM DEM
 const contactForm = document.getElementById("contactForm");
 
 if (contactForm) {
