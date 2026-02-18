@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moulei | HR Portfolio</title>
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <!-- MAIN SYSTEM WRAPPER -->
+    <div class="system-wrapper">
+
+        <!-- LEFT PANEL (PROFILE) -->
+        <aside class="left-panel">
+            <div class="profile-card">
+                <div class="profile-img-wrap">
+                    <img
+                        src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=900&q=80"
+                        alt="Moulei profile"
+                        class="profile-img"
+                    />
+                    <span class="status-dot"></span>
+                </div>
+
+                <h1 class="profile-name">Moulei</h1>
+                <p class="profile-role">
+                    <i class="fa-solid fa-briefcase"></i>
+                    HR Specialist • 4 Years Experience
+                </p>
+
+                <div class="quick-info">
+                    <div class="info-pill">
+                        <i class="fa-solid fa-location-dot"></i>
+                        South Africa
+                    </div>
+                    <div class="info-pill">
+                        <i class="fa-solid fa-user-tie"></i>
+                        HR Department
+                    </div>
+                    <div class="info-pill">
+                        <i class="fa-solid fa-check"></i>
+                        Available
+                    </div>
+                </div>
+
+                <div class="profile-actions">
+                    <a class="btn btn-system" href="mailto:moulei.hr@email.com">
+                        <i class="fa-solid fa-envelope"></i> Email
+                    </a>
+                    <a class="btn btn-system-outline" href="#"
+                        onclick="alert('Demo: Add your LinkedIn link here!')">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+
+                <div class="mini-stats">
+                    <div class="stat-box">
+                        <h4>4+</h4>
+                        <p>Years</p>
+                    </div>
+                    <div class="stat-box">
+                        <h4>25+</h4>
+                        <p>Hires</p>
+                    </div>
+                    <div class="stat-box">
+                        <h4>12+</h4>
+                        <p>Projects</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- RIGHT PANEL (CONTENT) -->
+        <main class="right-panel">
+
+            <!-- TOP HEADER -->
+            <header class="top-header">
+                <div class="header-title">
+                    <h2><i class="fa-solid fa-layer-group"></i> Moulei Portfolio System</h2>
+                </div>
+
+                <div class="header-clock">
+                    <i class="fa-regular fa-clock"></i>
+                    <span id="clockText">00:00:00</span>
+                </div>
+            </header>
+
+            <!-- TABS (NOT NAVBAR) -->
+            <section class="tabs-bar">
+                <button class="tab-btn active" data-tab="tab-home">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </button>
+
+                <button class="tab-btn" data-tab="tab-about">
+                    <i class="fa-solid fa-user"></i>
+                    <span>About</span>
+                </button>
+
+                <button class="tab-btn" data-tab="tab-skills">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <span>Skills</span>
+                </button>
+
+                <button class="tab-btn" data-tab="tab-work">
+                    <i class="fa-solid fa-building"></i>
+                    <span>Work</span>
+                </button>
+
+                <button class="tab-btn" data-tab="tab-contact">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span>Contact</span>
+                </button>
+            </section>
+
+            <!-- TAB CONTENT AREA -->
+            <section class="content-area">
+
+                <!-- HOME TAB -->
+                <div class="tab-content show" id="tab-home">
+                    <div class="row g-3">
+                        <div class="col-lg-7">
+                            <div class="card3d">
+                                <h3 class="card-title">
+                                    <i class="fa-solid fa-star"></i> Welcome
+                                </h3>
+
+                                <p class="card-text">
+                                    Hi, I’m <b>Moulei</b>. I work in the <b>HR department</b> and I have
+                                    <b>4 years</b> of experience.  
+                                    I help companies with hiring, employee support, and building a positive workplace.
+                                </p>
+
+                                <div class="highlight-box">
+                                    <i class="fa-solid fa-fire"></i>
+                                    <div>
+                                        <h5>Professional Focus</h5>
+                                        <p>Recruitment • Employee Relations • HR Administration</p>
+                                    </div>
+                                </div>
+
+                                <div class="home-buttons">
+                                    <button class="btn btn-system" id="btnGlow">
+                                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                        Quick Highlight
+                                    </button>
+
+                                    <button class="btn btn-system-outline" onclick="openTab('tab-contact')">
+                                        <i class="fa-solid fa-phone"></i>
+                                        Contact Me
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <div class="card3d image-card">
+                                <h3 class="card-title">
+                                    <i class="fa-solid fa-image"></i> HR Moments
+                                </h3>
+
+                                <div class="image-grid">
+                                    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80" alt="Team meeting">
+                                    <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=900&q=80" alt="Office work">
+                                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Collaboration">
+                                    <img src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?auto=format&fit=crop&w=900&q=80" alt="Work laptop">
+                                </div>
+
+                                <p class="small-note">
+                                    These images represent a modern HR working environment.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ABOUT TAB -->
+                <div class="tab-content" id="tab-about">
+                    <div class="row g-3">
+                        <div class="col-lg-8">
+                            <div class="card3d">
+                                <h3 class="card-title">
+                                    <i class="fa-solid fa-circle-info"></i> About Moulei
+                                </h3>
+
+                                <p class="card-text">
+                                    I am an HR professional with 4 years of experience.
+                                    I support staff, manage HR processes, and help create a strong company culture.
+                                </p>
+
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <span class="dot"></span>
+                                        <div>
+                                            <h5>2022 - 2026</h5>
+                                            <p>HR Specialist — Hiring and employee support.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <span class="dot"></span>
+                                        <div>
+                                            <h5>2020 - 2022</h5>
+                                            <p>HR Assistant — HR admin, onboarding, and records.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="quote-box">
+                                    <i class="fa-solid fa-quote-left"></i>
+                                    <p>
+                                        “Good HR is not only paperwork. It is people care, fairness, and growth.”
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="card3d profile-side">
+                                <h3 class="card-title">
+                                    <i class="fa-solid fa-id-badge"></i> Profile Summary
+                                </h3>
+
+                                <ul class="clean-list">
+                                    <li><i class="fa-solid fa-check"></i> Recruitment and selection</li>
+                                    <li><i class="fa-solid fa-check"></i> Staff onboarding</li>
+                                    <li><i class="fa-solid fa-check"></i> HR records management</li>
+                                    <li><i class="fa-solid fa-check"></i> Employee relations</li>
+                                    <li><i class="fa-solid fa-check"></i> HR compliance support</li>
+                                </ul>
+
+                                <div class="badge-area">
+                                    <span class="skill-badge">HR Admin</span>
+                                    <span class="skill-badge">Recruitment</span>
+                                    <span class="skill-badge">People Support</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SKILLS TAB -->
+                <div class="tab-content" id="tab-skills">
+                    <div class="row g-3">
+                        <div class="col-lg-6">
+                            <div class="card3d">
+                                <h3 class="card-title">
+                                    <i class="fa-solid fa-bolt"></i> HR Skills
+                                </h3>
+
+                                <div class="skill-row">
+                                    <div class="skill-label">
+                                        Recruitment & Hiring
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-fill" style="width: 90%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-row">
+                                    <div class="skill-label">
+                                        Employee Relations
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-fill" style="width: 85%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-row">
+                                    <div class="skill-label">
+                                        HR Administration
+                                        <span>88%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-fill" style="width: 88%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-row">
+                                    <div class="skill-label">
+                                        Communication
+                                        <span>92%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-fill" style="width: 92%"></div>
+                                    </div>
+                                </div>
+
+                                <p class="small-note">
+                                    These skills are shown with simple progress bars and animations.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="card3d">
+                                <h3 class="card-title">
+                                    <i class="fa-solid fa-shield-heart"></i> Soft Skills
+                                </h3>
+
+                                <div class="soft-grid">
+                                    <div class="soft-card">
+                                        <i class="fa-solid fa-handshake"></i>
+                                        <h5>Team Support</h5>
+                                        <p>I work well with teams and help staff feel heard.</p>
+                                    </div>
+
+                                    <div class="soft-card">
+                                        <i class="fa-solid fa-scale-balanced"></i>
+                                        <h5>Fairness</h5>
+                                        <p>I support policies and keep things professional and equal.</p>
+                                    </div>
+
+                                    <div class="soft-card">
+                                        <i class="fa-solid fa-comments"></i>
+                                        <h5>Communication</h5>
+                                        <p>I speak clearly and keep HR messages simple.</p>
+                                    </div>
+
+                                    <div class="soft-card">
+                                        <i class="fa-solid fa-clipboard-check"></i>
+                                        <h5>Organization</h5>
+                                        <p>I manage records, onboarding, and HR tasks neatly.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WORK TAB -->
+                <div class="tab-content" id="tab-work">
+                    <div class="row g-3">
+                        <div class="col-lg-12">
+                            <div class="card3d">
+                                <h3 class="card-title">
+                                    <i class="fa-solid fa-building-user"></i> Work Experience
+                                </h3>
+
+                                <div class="work-grid">
+                                    <div class="work-card">
+                                        <h5>
+                                            <i class="fa-solid fa-user-plus"></i>
+                                            Recruitment & Hiring
+                                        </h5>
+                                        <p>
+                                            I help with job posts, interviews, selection, and onboarding.
+                                        </p>
+                                    </div>
+
+                                    <div class="work-card">
+                                        <h5>
+                                            <i class="fa-solid fa-file-signature"></i>
+                                            HR Administration
+                                        </h5>
+                                        <p>
+                                            I manage employee files, leave tracking, and HR documents.
+                                        </p>
+                                    </div>
+
+                                    <div class="work-card">
+                                        <h5>
+                                            <i class="fa-solid fa-people-group"></i>
+                                            Employee Support
+                                        </h5>
+                                        <p>
+                                            I support staff needs and help solve workplace issues professionally.
+                                        </p>
+                                    </div>
+
+                                    <div class="work-card">
+                                        <h5>
+                                            <i class="fa-solid fa-gavel"></i>
+                                            HR Compliance
+                                        </h5>
+                                        <p>
+                                            I assist with HR rules, company policies, and basic compliance support.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="success-strip">
+                                    <i class="fa-solid fa-award"></i>
+                                    <p>
+                                        I always aim for a respectful workplace, smooth HR processes, and strong teamwork.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CONTACT TAB -->
+                <div class="tab-content" id="tab-contact">
+                    <div class="row g-3">
+                        <div class="col-lg-7">
+                            <div class="card3d">
+                                <h3 class="card-title">
+                                    <i class="fa-solid fa-paper-plane"></i> Contact Moulei
+                                </h3>
+
+                                <form id="contactForm">
+                                    <div class="mb-3">
+                                        <label class="form-label">Your Name</label>
+                                        <input type="text" title="text input your full name" class="form-control form-system" id="name" required>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label">Your Email</label>
+                                        <input type="email" title="email input" class="form-control form-system" id="email" required>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label">Message</label>
+                                        <textarea class="form-control form-system" title="text area for message" rows="4" id="message" required></textarea>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-system w-100">
+                                        <i class="fa-solid fa-paper-plane"></i> Send Message
+                                    </button>
+
+                                    <p class="small-note mt-2">
+                                        This is a demo form. It shows a success message.
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <div class="card3d">
+                                <h3 class="card-title">
+                                    <i class="fa-solid fa-address-card"></i> Details
+                                </h3>
+
+                                <div class="contact-box">
+                                    <div class="contact-item">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <div>
+                                            <h6>Email</h6>
+                                            <p>moulei.hr@email.com</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="contact-item">
+                                        <i class="fa-solid fa-phone"></i>
+                                        <div>
+                                            <h6>Phone</h6>
+                                            <p>+27 00 000 0000</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="contact-item">
+                                        <i class="fa-solid fa-briefcase"></i>
+                                        <div>
+                                            <h6>Department</h6>
+                                            <p>Human Resources</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="social-row">
+                                    <button class="social-btn" title="linkedin button" onclick="alert('Demo: Add your LinkedIn link!')">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </button>
+                                    <button class="social-btn" title="instagram button" onclick="alert('Demo: Add your Instagram link!')">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </button>
+                                    <button class="social-btn" title="facebook button" onclick="alert('Demo: Add your Facebook link!')">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </button>
+                                </div>
+
+                                <div class="footer-note">
+                                    <p>
+                                        © <span id="yearText"></span> Moulei • Professional HR Portfolio
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
